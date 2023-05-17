@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto
+}
+
+nav {
+    background-color: #D5DDE3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: #303313;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h1 {
+    color: steelblue;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid steelblue;
+}
+
+p {
+    padding: 0;
+}
+
+main {
+    grid-column: 2/5;
+    margin: 1rem;
+}
+
+main h1, main p {
+    padding : 0.5rem 1rem;
+    }
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+aside{
+    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside h2 {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    right: 0;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    border-top: 1px solid #000;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #B6D8E3;
+    color: #333;
+}
+
+.intend {
+    padding-left: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
